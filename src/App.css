@@ -7,6 +7,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+.App {
+  min-height: 100%;
+  position: relative;
 }
 .header {
   border-bottom: 1px solid #8a7f7f;
@@ -24,7 +29,22 @@ p {
 
 .player-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 20px 0;
-  height: 100%;
+  flex: 1;
+  height: 500px;
+}
+
+.player {
+  width: 70%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
