@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#root,
+.App {
+  height: 100vh;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #8a7f7f;
+}
+h5 {
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: "center";
+  height: 80%;
+}
+
+.player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.count-down span {
+  font-size: 30px;
+  color: "red";
+}
+
+h3 {
+  color: "red";
+}
